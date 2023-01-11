@@ -8,7 +8,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <Slider />
+      {/* <Slider /> */}
       <div className="information">
         <div className="slide">
           <h1>{/* <FaHospitalAlt /> */}</h1>

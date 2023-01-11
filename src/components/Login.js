@@ -34,7 +34,7 @@ const Login = ({ setUser }) => {
   const handleLoginSubmit = (e) => {
     e.preventDefault();
     setError([]);
-    fetch(docLogin ? "/doclogin" : "/patientlogin", {
+    fetch(docLogin ? "http://127.0.0.1:3000/doclogin" : "http://127.0.0.1:3000/patientlogin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
